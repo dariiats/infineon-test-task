@@ -38,11 +38,11 @@ void MainWindow::startGenerator()
     future_generat = QtConcurrent::run([this](){
         while(generatorRunning) {
             num->createNum();
-            QThread::msleep(1000);}});
+            QThread::msleep(333);}});
     future_queue = QtConcurrent::run([this](){
         while(generatorRunning) {
             num->writeNum();
-            QThread::msleep(1000);}});
+            QThread::msleep(333);}});
     }
 }
 
