@@ -17,6 +17,7 @@
 # Debugger Files
 *.pdb
 
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -39,3 +40,5 @@
 
 # debug information files
 *.dwo
+
+build/
